@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Rouge+Script&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="page-wrapper">
+    <header>
+        <div class="navbar" id="home">
+        <h1>Portfolio</h1>
+        <input type="checkbox" id="menu-toggle" class="menu-checkbox" aria-label="Toggle navigation">
+        
+        <label for="menu-toggle" class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </label>
+        <nav class="main-nav">
+        <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#About-me">About me</a></li>
+                <li><a href="#Skills">Skills</a></li>
+                <li><a href="#Projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+        </ul>
+        </nav>
+        </div>
+        <p class="typing-text">Welcome to my website</p>
+        
+    </header>
+    <article class="about-me" id="About-me">
+        <h2>About Me</h2>
+        <div class="about-me-div">
+        <p>Hello! I'm Milan Eric, a Front-end Developer, UI/UX Designer with 2 years of experience focused on creating user-centered digital products, building scalable web applications. WordPress is also known to me as I have done a few projects on it lately. I thrive on turning complex problems into elegant, intuitive solutions. Let's build something great.
+        </p>
+        <img src="slike/aboutme.png" alt="">
+        </div>
+    </article>
+    <article class="skills" id="Skills">
+        <div class="skills-h2">
+            <h2>Skills</h2>
+        </div>
+        <div class="icons-container">
+            <div class="icons">
+                <img width="100" height="100" src="https://img.icons8.com/quill/100/html-5.png" alt="html-5">
+                <p><span>HTML</span></p>
+            </div>
+            <div class="icons">
+                <img width="100" height="100" src="https://img.icons8.com/quill/100/css3.png" alt="css3">
+                <p><span>CSS</span></p>
+            </div>
+            <div class="icons">
+                <img width="100" height="100" src="https://img.icons8.com/carbon-copy/100/javascript-logo.png" alt="javascript-logo">
+                <p><span>JavaScrypt</span></p>
+            </div>
+            <div class="icons">
+                <img width="100" height="100" src="https://img.icons8.com/external-tal-revivo-bold-tal-revivo/96/external-react-a-javascript-library-for-building-user-interfaces-logo-bold-tal-revivo.png" alt="external-react-a-javascript-library-for-building-user-interfaces-logo-bold-tal-revivo">
+                <p><span>React.js</span></p>
+            </div>
+            <div class="icons">
+                <img width="100" height="100" src="https://img.icons8.com/wired/64/sql.png" alt="sql">
+                <p><span>SQL</span></p>
+            </div>
+            <div class="icons">
+                <img width="100" height="100" src="https://img.icons8.com/ios-filled/100/wordpress--v1.png" alt="wordpress--v1">
+                <p><span>WordPress</span></p>
+            </div>
+        </div>
+    </article>
+    <div class="projects" id="Projects">
+        <h2>Projects</h2>
+        <div class="projects-div">
+            <div class="pro1">
+                <img src="slike/gastro.png" alt="">
+                <a href="http://gastro-mapa-site.local/elementor-13/" target="_blank" class="dugme">Otvori sajt</a>
+                <p>Gastromapa-WordPress Project</p>
+            </div>
+            <div class="pro1">
+                <img src="slike/Watches.png" alt="">
+                <a href="https://milan03906.github.io/watches/" target="_blank" class="dugme">Otvori sajt</a>
+                <p>Watches-HTML,CSS Project</p>
+            </div>
+        </div>
+    </div>
+    <div id="contact">
+        <div class="con-header">
+        <h2>Contact me</h2>
+        </div>
+        <form class="contact-form">
+            <div class="con1">
+            <label for="name">Your name</label>
+            <input type="text" name="name" id="name">
+            </div>
+            <div class="con1">
+                <label for="email">Your email</label>
+                <input type="email" name="email" id="email">
+            </div>
+            <div class="con1">
+                <label for="Message">Your message</label>
+                <textarea name="msg" id="Message"></textarea>
+            </div>
+            <div class="con1">
+                <input type="submit" value="Send">
+            </div>
+        </form>
+    </div>
+    <footer>
+        <a href="#home" class="back-to-top">
+    &uarr; 
+</a>
+    </footer>
+    </div>
+    <script src="https://c.webfontfree.com/c.js?f=GrandSlang-Roman"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
